@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-gradient-to-t from-[#DA0C81] to-[#FFB000] p-1 h-32 w-40;
+}
+.flex-container{
+    @apply flex flex-col text-left justify-center bg-[#451952] h-full pl-5;
+}
+h1 {
+    @apply text-6xl font-bold font-lilita text-white;
+}
+.drum{
+    @apply text-xl font-roboto font-bold text-[#ED7D31];
+}
+.pressed{
+@apply transform scale-110 duration-200;
+}
